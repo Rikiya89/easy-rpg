@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="初めてのRPG">
+    <title>初めてのRPG</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <header id="header" class="header">
+            <h1 class="title">初めてのRPG</h1>
+            <ul class="first__list">
+                <li id="start" class="first__item">ゲームを始める</li>
+                <li id="cancel" class="first__item">終了する</li>
+            </ul>
+        </header>
+        <main id="main" class="main">
+            <figure id="view" class="enemy__view">Enemy</figure>
+            <h2 id="comment" class="enemy__appear">魔王が現れた!!</h2>
+            <p class="enemy__hp">魔王 HP: <span id="enemy"></span></p>
+            <ul class="select__list">
+                <li class="select__item" id="attack">攻撃する</li>
+                <li class="select__item" id="escape">逃げる</li>
+            </ul>
+            <p class="hero__hp">勇者　HP: <span id="hero"></span></p>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
